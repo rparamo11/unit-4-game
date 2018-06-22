@@ -4,7 +4,6 @@
 
 h1 {
     text-align: center;
-    padding: 10px;
 }
 
 img {
@@ -23,19 +22,25 @@ img {
     background: purple;
     width: 200px;
     height: 200px;
-    /* float: left; */
+    font-size: 20px;
+    text-align: center;
+    color: white;
 }
 
 #losses-wins {
     background: orange;
     width: 125px;
     height: 125px;
-    /* float: left; */
+    float: left;
 }
 
 #user-guesses {
     background: yellowgreen;
     width: 200px;
     height: 200px;
+    clear: both;
 }
 
+#instructions {
+    text-align: center;
+}
